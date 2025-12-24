@@ -1,37 +1,40 @@
-# Proprietary XAUUSD Systematic Execution Model (Verified)
+# Proprietary Systematic Execution Model: XAUUSD Pulse-Capture
 
-An institutional-grade algorithmic execution framework specifically engineered for the **XAUUSD (Gold)** spot market. This repository serves as a performance showcase and a high-level overview of a proprietary model developed by **Quant Vishal**.
+This repository serves as a performance exhibit for a high-conviction quantitative execution framework engineered for the **XAUUSD (Gold Spot)** FX CFD market. Developed by **Quant Vishal**, this model focuses on identifying and capturing high-probability liquidity clusters using a multi-layered HFT-inspired architecture.
 
-## 🛡️ Confidentiality & NDA Notice
-This strategy is governed by strict proprietary standards and Non-Disclosure Agreements (NDA). Consequently:
-*   The **Source Code (.mq5)** is private and is not hosted in this repository.
-*   The exact indicator parameters and execution logic are confidential to protect intellectual property.
-*   This exhibit focuses on **Verified Outcomes** and **Architectural Methodology**.
+## 🛡️ Confidentiality & IP Protection
+This framework is classified as proprietary intellectual property and is governed by strict **Non-Disclosure Agreements (NDA)**. To maintain a competitive edge and ensure model integrity:
+*   **Source Code (.mq5)** is restricted and remains private.
+*   **Execution Logic** and specific indicator calibrations are confidential.
+*   This exhibit provides a transparent overview of **Verified Outcomes** and **Architectural Methodology**.
 
-## 🧬 Architectural Philosophy
-The model operates on a hybrid quantitative framework designed to capture non-linear price displacement in the Gold market.
+## 🧬 Strategic Architecture (Hybrid HFT Framework)
+The model deviates from traditional lagging technical analysis, instead utilizing a layered approach to capture non-linear price displacement:
 
 ### 1. Adaptive Volatility Gating
-The system utilizes a dynamic volatility sieve to ensure capital exposure only occurs during high-liquidity trend phases. This proprietary filter effectively mitigates risk during low-volume "noise" periods and sideways market regimes.
+The engine employs a dynamic volatility sieve that monitors institutional order flow characteristics. By filtering out low-liquidity "noise" and sideways market regimes, the model ensures capital exposure only during periods of confirmed momentum displacement.
 
-### 2. Multi-Cycle Directional Alignment
-Instead of relying on lagging technical indicators, the engine synchronizes price action across multiple time-cycles to confirm high-conviction entries. This ensures the model captures the core "Institutional Pulse" of the Gold market.
+### 2. Micro-Momentum Velocity Displacement
+At its core, the system utilizes a proprietary execution pulse. It measures the displacement speed of price action across synchronized time-cycles. This ensures that entries are triggered only during peak kinetic energy phases in the market microstructure.
 
-### 3. Structural Equity Protection
-The framework employs a systematic recovery and layering mechanism designed to manage drawdowns mathematically. It prioritizes the "Basket Breakeven" price, ensuring that the aggregate portfolio maintains a positive expectancy even during short-term volatility bursts.
+### 3. Structural Equity Protection & Recovery
+The framework utilizes a systematic, fixed-step structural grid for risk mitigation. This recursive layering mechanism is mathematically optimized to improve the aggregate "Basket Breakeven" price, ensuring operational resilience during high-volatility spikes without the exponential risk associated with traditional Martingale systems.
 
-## 📊 Verified Track Record (3+ Months)
-The efficiency of this model has been validated through 3 months of continuous live/demo market execution:
-*   **Asset:** XAUUSD (Gold Spot)
-*   **Market Environment:** MetaTrader 5 (Global CFD)
-*   **Performance Proof:** Comprehensive HTML trading statements and Equity Growth Charts are available in the `/Performance` directory.
-*   **Drawdown Management:** Strictly controlled institutional-grade risk profile.
+## 📊 Performance Evidence (3-Month Verified Track Record)
+The model's efficacy has been validated through 90+ days of continuous live-market execution, demonstrating institutional-grade stability:
 
-## 🔑 Institutional Due Diligence
-For qualified institutional partners or VC firms interested in a deep-dive:
-*   **Investor Password Access:** Real-time monitoring of live execution is available upon request.
-*   **Detailed Backtest Data:** Comprehensive data sets covering various market regimes can be provided for due diligence purposes.
+### 📈 Equity Growth Visualization
+![Verified Performance Curve](FINAL REPORTS.png)
+
+### 📄 Comprehensive Execution Reports
+Due to the high-resolution nature of the underlying tick data and the resultant file sizes, complete HTML performance statements and granular execution logs are hosted on our secure cloud:
+[📥 Access Institutional Performance Reports (Google Drive)](https://drive.google.com/drive/folders/1VVylK_prRXxhPRPlbSnF1dQICdVBU7j1?usp=sharing)
+
+## 🔑 Institutional Due Diligence & Investor Access
+We maintain full transparency for qualified institutional partners and Venture Capital firms:
+*   **Real-Time Monitoring:** Live-account monitoring via **Investor Password Access** is available upon successful credential verification.
+*   **Slippage Sensitivity Analysis:** Comprehensive data sets demonstrating model resilience against high-slippage and spread-widening events can be provided for deep-dive audits.
 
 ---
 **Developed by Quant Vishal**  
-*Quantitative Research & Algorithmic Execution for Institutional Markets.*
+*Quantitative Research | Systematic Execution | Global FX Markets*
